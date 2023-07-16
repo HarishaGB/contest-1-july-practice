@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frontend 1 contest 1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
+      * {
+        margin: 0px;
+      }
+      nav {
+        height: 57px;
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        padding-top: 29px;
+        padding-left: 38px;
+      }
+      main{
+        padding-inline: 30px;
+      }
+      #Learn-More {
+        width: 226px;
+        height: 58px;
+        background-color: #000;
+        color: #fff;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        border: none;
+      }
+      h1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      #section-1{
+        padding-bottom: 100px;;
+      }
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      tr {
+        border-collapse: collapse;
+        height: 100px;
+      }
+      td {
+        padding: 10px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 400;
+        line-height:normal;
+        font-style: normal;
+        text-align: center;
+      }
+      /* thead{
+        border-bottom: 1px solid black;
+      } */
+
+      /* or we can do tbody top */
+      tbody {
+        border-top: 1px solid black;
+      }
+      tfoot {
+        background-color: black;
+        color: white;
+      }
+      tfoot>tr>td{
+        color: white;
+      }
+      .col-1{
+        width: 200px;
+      }
+      .col-2{
+        width: 300px;
+      }
+      .col-3{
+        width: 700px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>CompanyName</nav>
+    <main>
+      <section id="section-1">
+        <h1>Headind 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+        <br />
+        <br />
+        <a href="https://www.lipsum.com/">
+          <button id="Learn-More">Learn More</button>
+        </a>
+      </section>
+      <section id="section-2">
+        <h1>Heading 2</h1>
+        <img
+          src="https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+          alt="img"
+          width="729px"
+          height="911px"
+        />
+      </section>
+      <section id="ordered-list">
+        <h1>Ordered List</h1>
+        <ol>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+      </section>
+      <section id="unordered-list">
+        <h1>Unrdered List</h1>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </section>
+      <section id="table">
+        <h1>Table</h1>
+        <table id="table1">
+          <thead>
+            <tr>
+              <td class="header-cells col-1">SNO</td>
+              <td class="header-cells col-2">Startup Name</td>
+              <td class="header-cells col-3">Startup Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>AccioJob</td>
+              <td>Edtech</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>PhonePay</td>
+              <td>Fintech</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>OTPLess</td>
+              <td>B2B Startup</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>BhatathPay</td>
+              <td>Fintech</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Nykaa</td>
+              <td>Fasion app</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Boat</td>
+              <td>HeadPhone and accessories Startup</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="footer-cells">7</td>
+              <td class="footer-cells">Zomato</td>
+              <td class="footer-cells">Food delivery Startup</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
